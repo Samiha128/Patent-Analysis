@@ -82,7 +82,7 @@ This project includes a web interface for users to interact with patent data and
 ## 🏗 Architecture
 
 
-![Project Architecture](path_to_your_architecture_diagram.png)
+![Project Architecture](images/patentarchitecture.png)
 
 ## 📊 Dashboard
 Once the data is processed, it can be visualized using Power BI, including:
