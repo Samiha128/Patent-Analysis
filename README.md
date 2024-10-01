@@ -90,7 +90,8 @@ This project includes a web interface for users to interact with patent data and
 Once the data is processed, it can be visualized using Power BI, including:
 - Trends in patent filings in aviation fuel.
 - Analysis of innovations and technologies in the industry.
-
+![Project Architecture](images/patent-analyse-page1.png)
+![Project Architecture](images/patent-analyse-page2.png)
 ## 📞 Contact
 For any questions or issues, feel free to reach out:
 -[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samiha-el-mansouri-27505b250/)
