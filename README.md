@@ -25,18 +25,15 @@ To set up and run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/patent-analysis.git
+    git clone https://github.com/Samiha128/Patent-Analysis
     ```
 2. Navigate to the project directory:
     ```bash
     cd patent-analysis
     ```
-3. Install the required dependencies for the web interface:
-    ```bash
-    npm install
-    ```
 
-4. Set up your Snowflake account and configure the connection:
+
+3. Set up your Snowflake account and configure the connection:
     Create a `config.yml` file and include your Snowflake credentials:
     ```yaml
     snowflake:
@@ -48,17 +45,11 @@ To set up and run this project locally, follow these steps:
       schema: your-schema
     ```
 
-5. Set up and run Airflow for orchestration:
-    ```bash
-    airflow db init
-    airflow webserver --port 8080
-    airflow scheduler
-    ```
+4. Set up and run MAGE for orchestration:
+    
 
-6. Run your web application:
-    ```bash
-    npm start
-    ```
+5. Run your web application:
+   
 
 ## 🚀 Usage
 This project includes a web interface for users to interact with patent data and view analysis results.
@@ -66,36 +57,30 @@ This project includes a web interface for users to interact with patent data and
 ### Steps to use the project:
 
 1. **Input patent data** through the web interface.
-2. **Run Airflow DAGs** to orchestrate data processing and loading into Snowflake.
+2. **Run Mage** to orchestrate data processing and loading into Snowflake.
 3. **Query and analyze** the data in Snowflake using SQL.
 4. **Visualize results** in Power BI by connecting it to your Snowflake database.
 
 ## 🛠️ Difficulties
-- Managing the orchestration of complex data workflows in Airflow.
+- Managing the orchestration of complex data workflows in Mage.
 - Ensuring efficient data loading and querying in Snowflake.
 - Handling large volumes of patent data for analysis.
 - Designing an intuitive web interface for user interaction.
 - Integrating Power BI with Snowflake for seamless data visualization.
 
 ## 🔧 Points to Improve
-- Optimize Airflow DAGs for performance and reliability.
 - Enhance the web interface for better user experience and accessibility.
 - Implement more advanced analytics features in Power BI for deeper insights.
 
 ## 🛠 Tools
-- **Apache Airflow**: For data orchestration and workflow management.
+- **Mage**: For data orchestration and workflow management.
 - **Snowflake**: As the data warehouse with a star schema design.
 - **JavaScript/HTML/CSS**: For developing the web interface.
 - **Power BI**: For data visualization and reporting.
 - **Git**: For version control.
 
 ## 🏗 Architecture
-The architecture of the project consists of:
-1. **Raw Patent Data**: Collected from various sources.
-2. **Airflow DAGs**: For orchestrating the ETL processes.
-3. **Snowflake Data Warehouse**: Using a star schema for efficient data storage and querying.
-4. **Web Interface**: For user interaction and data entry.
-5. **Power BI Dashboards**: For visualizing patent data and insights.
+
 
 ![Project Architecture](path_to_your_architecture_diagram.png)
 
@@ -106,5 +91,4 @@ Once the data is processed, it can be visualized using Power BI, including:
 
 ## 📞 Contact
 For any questions or issues, feel free to reach out:
-- Email: your.email@example.com
-- GitHub: [your-username](https://github.com/your-username)
+-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samiha-el-mansouri-27505b250/)
